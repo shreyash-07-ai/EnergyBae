@@ -10,7 +10,7 @@ from openpyxl.styles import Font, PatternFill
 from datetime import datetime
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyC5NQNdW9dAC209d8SUj3HVNLqNo2CNAOw"                                                    # Gemini API Key By mail shreyashmusmade123@gmail.com   
+GEMINI_API_KEY = "AIzaSyDWEtp2aEzQ76kNBT16d8AXBUmcplNKoXA"                                                    # Gemini API Key By mail shreyashmusmade123@gmail.com   
 genai.configure(api_key=GEMINI_API_KEY)
 
 st.set_page_config(page_title="Electricity Bill to Excel", layout="wide")
